@@ -4,7 +4,7 @@ import pytest
 import asynctest
 from fastapi.testclient import TestClient
 from httpx import AsyncClient
-from artisse_app_api.src.main import app  # Import your FastAPI application
+from artisse_app_api.src.main import app
 from artisse_app_api.src.likes import services
 from artisse_app_api.src.images import services as images_services
 from artisse_app_api.src.auth.dependencies import get_current_user
