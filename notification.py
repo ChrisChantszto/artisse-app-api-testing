@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 from unittest.mock import patch
-from artisse-app-api.src.main import app  # assuming your FastAPI application is named as 'app' in 'main.py'
+from artisse-app-api.src.main import app
 from artisse-app-api.src.notification.schemas import CreateNotificationRequest, NotificationHistory
 from datetime import datetime
 
